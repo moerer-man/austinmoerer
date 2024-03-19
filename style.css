@@ -9,7 +9,7 @@ body {
   color:white;
 }
 .first-name:hover{
-  color:red; 
+  color:green; 
 }
 header {
   background-color: #222;
@@ -27,7 +27,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 section:hover {
-  color:red;
+  color:green;
 }
 
 h1 {
@@ -59,7 +59,7 @@ footer {
   width: 100%;
 }
 footer:hover {
-  color:red;
+  color:green;
 }
 label {
   display: block;

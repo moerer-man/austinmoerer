@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Coach Services</title>
+    <link rel="stylesheet" href="CCsurvey.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="CClogo.png" />
+    </div>
+    <div class="intro">
+      <h1 id="title">Travel Coach Services</h1>
+
+      <p id="description">
+        "Please complete the form, and I will follow up with you via email.
+        Thank you, and have a wonderful day filled with magic!"
+      </p>
+    </div>
+
+    <form>
+      <br /><br />
+      <div>
+        <label for="full-name"
+        >1. Full Name:</label><br />
+        <input 
+          required type="text" 
+          id="full-name" 
+          name="full-name" 
+          />
+      </div>
+      <br /><br />
+      <div>
+        <label for="email"
+        >2. Email:</label><br />
+        <input 
+          required 
+          type="email" 
+          id="email" 
+          name="email"/>
+      </div>
+      <br /><br />
+      <div>
+        <label for="phone"
+        >3. Phone Number:</label><br />
+        <input 
+          required 
+          type="tel" 
+          id="phone" 
+          name="phone" 
+        />
+      </div>
+      <br /><br />
+      <div>
+        <label for="address">4. Address:</label><br />
+        <input type="text" id="address" name="address" />
+      </div>
+      <br /><br />
+
+      
+
+      <label for="city">5. City:</label><br />
+      <input required type="text" id="city" name="city" /><br /><br />
+
+      <label for="state">6. State:</label>
+      <br />
+      <input required type="text" id="state" name="state" />
+      <br /><br />
+
+      <label for="good-time"
+        >7. When is a good time and day for a FaceTime or phone call?</label
+      ><br />
+      <input 
+        type="datetime-local" 
+        id="good-time" 
+        name="good-time" 
+        />
+      <br /><br />
+
+      <label for="travelers"
+        >8. How many travelers will be with you?</label>
+      <br />
+      <input
+        type="number"
+        id="travelers"
+        name="travelers"
+        min="1"
+        required
+      /><br /><br />
+
+      <label for="check-in"
+        >9. When will you be checking in?</label>
+      <br />
+      <input 
+        type="date" 
+        id="check-in" 
+        name="check-in" 
+        required 
+        /><br /><br />
+
+      <label for="check-out"
+        >10. When will you be checking out?</label>
+      <br />
+      <input 
+        type="date" 
+        id="check-out" 
+        name="check-out" 
+        required 
+        /><br /><br />
+
+      <label for="destination"
+        >11. What destination were you looking to book?</label
+      ><br />
+      <input 
+        type="text" 
+        id="destination" 
+        name="destination" 
+        /><br /><br />
+
+      <label for="budget"
+        >12. What is your travel budget? (Ballpark if you are not sure)</label
+      ><br />
+      <input 
+        type="text" 
+        id="budget" 
+        name="budget" 
+        /><br /><br />
+
+      <label for="travelers-info"
+        >13. List the names and ages of everyone traveling:</label
+      ><br />
+      <textarea 
+        id="travelers-info" 
+        name="travelers-info" 
+        rows="4"
+        ></textarea><br /><br />
+
+      <label for="celebrations"
+        >14. Are there any celebrations happening during your trip that I should
+        know about? (Anniversary, birthday, honeymoon)</label
+      ><br />
+      <textarea 
+        id="celebrations" 
+        name="celebrations" 
+        rows="2"
+        ></textarea><br /><br />
+
+      <label for="discounts"
+        >15. Do you qualify for any of these discount options? (Select all that
+        apply)</label
+      ><br />
+      <input
+        type="checkbox"
+        id="disney-visa"
+        name="discounts"
+        value="Disney Visa card member"
+      />
+      <label for="disney-visa">Disney Visa card member</label><br />
+      <input type="checkbox" id="military" name="discounts" value="Military" />
+      <label for="military">Military</label><br />
+      <input
+        type="checkbox"
+        id="disney-plus"
+        name="discounts"
+        value="Disney+ account holder"
+      />
+      <label for="disney-plus">Disney+ account holder</label><br />
+      <input
+        type="checkbox"
+        id="annual-pass"
+        name="discounts"
+        value="Annual pass holder"
+      />
+      <label for="annual-pass">Annual pass holder</label><br />
+      <input
+        type="checkbox"
+        id="other-discount"
+        name="discounts"
+        value="Other"
+      />
+      <label for="other-discount">Other</label><br /><br />
+
+      <label for="stay-on-property"
+        >16. Are you wanting to stay on property?</label
+      ><br />
+      <input
+        type="radio"
+        id="on-property-yes"
+        name="stay-on-property"
+        value="Yes"
+      />
+      <label for="on-property-yes">Yes</label><br />
+      <input
+        type="radio"
+        id="on-property-no"
+        name="stay-on-property"
+        value="No"
+      />
+      <label for="on-property-no">No</label><br /><br />
+
+      <label for="park-days"
+        >17. How many days did you want to spend at the parks? (List for both
+        Disney and Universal)</label
+      ><br />
+      <textarea id="park-days" name="park-days" rows="2"></textarea><br /><br />
+
+      <label for="dining-options"
+        >18. What dining options are you looking forward to?</label
+      ><br />
+      
+
+      <!--Multiple dropdown or check box-->
+
+      <label for="trip-activities">
+        19. What are you most looking forward to doing on your trip?</label
+      >
+      <br />
+      <textarea id="trip-activities" name="trip-activities" rows="4"></textarea>
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
